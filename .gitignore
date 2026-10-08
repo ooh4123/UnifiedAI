@@ -1,0 +1,13 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Netlify and dependencies
+.netlify/
+node_modules/
+
+# Python prototype
+venv/
+__pycache__/
+*.pyc
